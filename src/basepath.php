@@ -30,9 +30,9 @@ if ( !function_exists('basepath') ) {
                 $out .= ".." . DIRECTORY_SEPARATOR;
                 $start++;
             }
+        } else {
+            $out .= ".." . DIRECTORY_SEPARATOR;
         }
-
-        $out .= ".." . DIRECTORY_SEPARATOR;
 
         $project_path = realpath(__DIR__ . DIRECTORY_SEPARATOR . $out);
 
