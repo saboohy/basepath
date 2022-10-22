@@ -2,7 +2,7 @@
 
 Returns the base path of the project.
 
-Specifies the main direction of the project based on the `composer.json` file. However, it is recommended to call and use it via composer.
+Specifies the main direction of the project based on the `composer.json` file. However, it is recommended to install and use it via composer.
 
 ## Requirements
 
