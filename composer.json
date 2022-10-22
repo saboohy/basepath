@@ -1,0 +1,36 @@
+{
+    "name": "saboohy/basepath",
+    "type": "library",
+    "license": "MIT",
+    "description": "The Helper Function For Base Path Directory of The Project",
+    "keywords": [
+        "php",
+        "basepath",
+        "directory",
+        "composer"
+    ],
+    "readme": "",
+    "authors": [
+        {
+            "name": "Sabuhi Alizada",
+            "email": "sabuhi.alizada@yahoo.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/basepath.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Saboohy\\Basepath\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
