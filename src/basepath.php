@@ -5,11 +5,9 @@ if ( !function_exists('basepath') ) {
     /**
      * Returns basepath value of the project
      * 
-     * @param string $dir
-     * 
      * @return nullable|string
      */
-    function basepath(string $dir = "") : ?string
+    function basepath() : ?string
     {
         $real_path = realpath(__DIR__);
 
@@ -39,12 +37,6 @@ if ( !function_exists('basepath') ) {
         if ( !file_exists($project_path . DIRECTORY_SEPARATOR . "composer.json") ) {
             return null;
         }
-
-        $dir = (
-            !empty($dir) && $dir[0] != "/"
-            ? "/" . $dir
-            : $dir
-        );
 
         return $project_path . $dir;
     }
