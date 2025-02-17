@@ -1,6 +1,7 @@
 {
     "name": "saboohy/basepath",
     "type": "library",
+    "version": "1.1.0",
     "license": "MIT",
     "description": "The Helper Function For Base Path Directory of The Project",
     "keywords": [
@@ -9,11 +10,11 @@
         "directory",
         "composer"
     ],
-    "readme": "",
+    "readme": "https://github.com/saboohy/basepath/blob/main/README.md",
     "authors": [
         {
             "name": "Sabuhi Alizada",
-            "email": "sabuhi.alizada@yahoo.com",
+            "email": "sabuhi.alizada@hotmail.com",
             "role": "Developer"
         }
     ],
