@@ -20,8 +20,6 @@ composer require saboohy/basepath
 
 ```php
 echo basepath(); // ...project_name/
-
-echo basepath("composer.json"); // ...project_name/composer.json 
 ```
 
 ## License
