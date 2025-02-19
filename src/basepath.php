@@ -38,6 +38,6 @@ if ( !function_exists('basepath') ) {
             return null;
         }
 
-        return $project_path . $dir;
+        return $project_path;
     }
 }
